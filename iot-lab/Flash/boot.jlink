@@ -1,0 +1,5 @@
+if SWD
+device stm32f103vg
+speed 400
+loadfile /home/xuke/work/xk/boot.hex 0x20000000
+exit
